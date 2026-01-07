@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ajit Medical</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#navbar-main"
+    data-bs-offset="120"
+    tabindex="0"
+  >
+    <!-- top-nav -->
+    <nav class="navbar navbar-expand-sm fixed-top" id="navbar-top">
+      <div class="container d-flex justify-content-between align-items-center">
+        <p class="fw-medium mb-0">
+          <i class="fa-regular fa-clock"></i> Monday - Saturday, 8AM to 10PM
+        </p>
+      </div>
+    </nav>
+
+    <!-- nav-main -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light fw-medium shadow-sm fixed-top"
+      id="navbar-main"
+    >
+      <div class="container-lg">
+        <a class="navbar-brand fw-bold" href="#hero">
+          <img src="images/logo1.png" alt="ajit medical shop logo" /> AJIT
+          MEDICAL
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#hero">HOME</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#image-gallery">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#medicines">MEDICINES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn" id="OrderNowbtn" href="#order-form"> Order Now </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero" id="hero">
+      <div class="overlay"></div>
+
+      <div class="hero-box">
+        <h1>Your Trusted Partner in Health for Every Generation.</h1>
+        <p>
+          At Ajit Medical Shop, we provide genuine medicines and expert care you
+          can rely on. Quality healthcare is now just a click away.
+        </p>
+
+        <a
+          href="#order-form"
+          class="btn btn-primary text-white rounded border-0"
+        >
+          Order Now
+        </a>
+      </div>
+    </section>
+
+    <section id="excellence" class="py-5">
+      <div class="container-lg">
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6 col-sm-12" id="">
+            <div class="border p-4 h-100 text-center">
+              <h2><i class="fa-solid fa-heart-pulse" id="heart"></i></h2>
+              <h3>Cardiac Sciences</h3>
+              <p>
+                We've been at the forefront of heart care for 24+ years,
+                combining advanced technology with expert treatment.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="border p-4 h-100 text-center">
+              <h2><i class="fa-solid fa-pills" id="pills"></i></h2>
+              <h3>Cancer Care</h3>
+              <p>
+                We excel in cancer care leveraging cutting-edge methods &
+                expertise to offer comprehensive treatment.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="border p-4 h-100 text-center">
+              <h2><i class="fa-solid fa-thermometer" id="thermometer"></i></h2>
+              <h3>Neuro Sciences</h3>
+              <p>
+                We offer specialised care for a wide range of neurological
+                disorders in adults & children.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="border p-4 h-100 text-center">
+              <h2><i class="fa-solid fa-dna" id="dna"></i></h2>
+              <h3>Genetics</h3>
+              <p>
+                We provide advanced genetic testing and counselling services for
+                better patient outcomes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="emergency">
+      <div class="container-fluid" id="emergency-bg">
+        <h2 class="fw-bold" id="emergency-h2">
+          In an emergency? Need help now?
+        </h2>
+        <p id="emergency-p">
+          Your well-being is our top priority. As your trusted local chemist and
+          druggist, we maintain a vast inventory of essential medicines to
+          ensure you get what you need, right when you need it. Reach out to our
+          professional staff for any urgent medical requirements.
+        </p>
+      </div>
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="emergency-number px-4 py-3 rounded-pill text-center">
+          <i class="fa-solid fa-phone me-2"></i>
+          <a
+            href="tel:+155895548855"
+            class="text-white fw-bold fs-4 text-decoration-none"
+          >
+            +1 5589 55488 55
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-5">
+      <div class="container-lg">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">About Us</h2>
+          <div class="about-line mx-auto"></div>
+          <p class="text-muted mt-3">
+            Serving the Community with Trust and Care.
+          </p>
+        </div>
+
+        <div class="row g-5 align-items-stretch">
+          <div class="col-lg-6 d-flex">
+            <div class="about-image w-100">
+              <img
+                src="images/img1.jpeg"
+                alt="About Hospital"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <h3 class="fw-semibold mb-3">Why Choose Us?</h3>
+
+            <p class="fst-italic text-muted">
+              At Ajit Medical Shop, we believe that healthcare should be
+              accessible, reliable, and personalized. For years, we have stood
+              as a pillar of health in our neighborhood, operating as a premier
+              Chemist & Druggist dedicated to your well-being.
+            </p>
+
+            <ul class="about-list">
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Sourced directly from trusted manufacturers.
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>
+                A comprehensive stock of healthcare and surgical items.
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Proudly serving as your local health partner.
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Combining traditional trust with modern convenience through our
+                "Book Now" features.
+              </li>
+            </ul>
+
+            <p class="text-muted">
+              Our facility is designed to meet the highest standards of
+              pharmaceutical care. With a vast inventory of genuine medicines
+              and healthcare products, we ensure that you never have to
+              compromise on your health. Whether you are looking for specialized
+              prescriptions or everyday wellness essentials, our knowledgeable
+              team is here to guide you with professional expertise and a
+              friendly smile.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="image-gallery" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4" style="color: #3fbbc0">
+          Pharmacy Image Gallery
+        </h2>
+
+        <div class="row g-4">
+          <!-- Gallery cards -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card shadow-sm rounded gallery-card">
+              <img
+                src="images/img6.jpeg"
+                class="card-img-top rounded gallery-img"
+                data-bs-toggle="modal"
+                data-bs-target="#imageModal"
+                alt="Gallery Image"
+              />
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card shadow-sm rounded gallery-card">
+              <img
+                src="images/img2.jpeg"
+                class="card-img-top rounded gallery-img"
+                data-bs-toggle="modal"
+                data-bs-target="#imageModal"
+                alt="Gallery Image"
+              />
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card shadow-sm rounded gallery-card">
+              <img
+                src="images/img3.jpeg"
+                class="card-img-top rounded gallery-img"
+                data-bs-toggle="modal"
+                data-bs-target="#imageModal"
+                alt="Gallery Image"
+              />
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card shadow-sm rounded gallery-card">
+              <img
+                src="images/img4.jpeg"
+                class="card-img-top rounded gallery-img"
+                data-bs-toggle="modal"
+                data-bs-target="#imageModal"
+                alt="Gallery Image"
+              />
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card shadow-sm rounded gallery-card">
+              <img
+                src="images/img5.jpeg"
+                class="card-img-top rounded gallery-img"
+                data-bs-toggle="modal"
+                data-bs-target="#imageModal"
+                alt="Gallery Image"
+              />
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card shadow-sm rounded gallery-card">
+              <img
+                src="images/img1.jpeg"
+                class="card-img-top rounded gallery-img"
+                data-bs-toggle="modal"
+                data-bs-target="#imageModal"
+                alt="Gallery Image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="imageModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+          
+          <div
+            class="modal-content bg-transparent border-0 shadow-none modal-white-bg"
+          >
+            <button
+              type="button"
+              class="btn-close btn-close-white position-absolute top-0 end-0 m-3"
+              data-bs-dismiss="modal"
+            ></button>
+
+            <img
+              id="modalImage"
+              class="img-fluid d-block mx-auto"
+              style="max-height: 85vh; object-fit: contain"
+              alt="Gallery Preview"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="py-5">
+      <div class="container-lg">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Services</h2>
+          <div class="service-divider"></div>
+
+          <p class="text-muted mt-3">
+            Reliable pharmaceutical services designed to support your health and
+            wellness
+          </p>
+        </div>
+
+        <div class="row g-5">
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box">
+              <div class="icon-circle">
+                <i class="fa-solid fa-notes-medical"></i>
+              </div>
+              <h5>Medication Counseling</h5>
+              <div class="service-line"></div>
+              <p>
+                Professional guidance on medicine usage, dosage instructions,
+                and potential side effects.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box">
+              <div class="icon-circle">
+                <i class="fa-solid fa-heart-pulse"></i>
+              </div>
+              <h5>Chronic Disease Support</h5>
+              <div class="service-line"></div>
+              <p>
+                Continuous assistance for managing diabetes, hypertension, and
+                long-term conditions.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box">
+              <div class="icon-circle">
+                <i class="fa-solid fa-truck"></i>
+              </div>
+              <h5>Home Delivery</h5>
+              <div class="service-line"></div>
+              <p>
+                Safe and timely home delivery of medicines and healthcare
+                essentials.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box">
+              <div class="icon-circle">
+                <i class="fa-solid fa-capsules"></i>
+              </div>
+              <h5>Prescription Medicines</h5>
+              <div class="service-line"></div>
+              <p>
+                Authentic prescription medicines sourced from trusted
+                pharmaceutical brands.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box">
+              <div class="icon-circle">
+                <i class="fa-solid fa-leaf"></i>
+              </div>
+              <h5>Wellness Products</h5>
+              <div class="service-line"></div>
+              <p>
+                Health supplements, vitamins, immunity boosters, and wellness
+                essentials.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box">
+              <div class="icon-circle">
+                <i class="fa-solid fa-hand-holding-medical"></i>
+              </div>
+              <h5>Personal Care Items</h5>
+              <div class="service-line"></div>
+              <p>
+                Hygiene and personal care products for everyday health and
+                comfort.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="medicines" class="medicines-section">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Trusted Medicines for Every Need</h2>
+          <div class="underline"></div>
+          <p>
+            We provide genuine, affordable, and high-quality medicines sourced
+            from trusted pharmaceutical brands.
+          </p>
+        </div>
+
+        <div class="row g-4 mt-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="medicine-card text-center">
+              <div class="icon">
+                <i class="fa-solid fa-prescription-bottle-medical"></i>
+              </div>
+              <h4>Prescription Medicines</h4>
+              <p>
+                Certified prescription medicines dispensed safely by licensed
+                pharmacists.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="medicine-card text-center">
+              <div class="icon">
+                <i class="fa-solid fa-pills"></i>
+              </div>
+              <h4>Generic Medicines</h4>
+              <p>
+                Affordable generic alternatives with the same quality and
+                effectiveness.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="medicine-card text-center">
+              <div class="icon">
+                <i class="fa-solid fa-tablets"></i>
+              </div>
+              <h4>OTC Medicines</h4>
+              <p>
+                Medicines for fever, pain relief, cold, cough, and common health
+                issues.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="medicine-card text-center">
+              <div class="icon">
+                <i class="fa-solid fa-leaf"></i>
+              </div>
+              <h4>Wellness & Supplements</h4>
+              <p>
+                Vitamins, minerals, immunity boosters, and nutritional
+                supplements.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="medicine-card text-center">
+              <div class="icon">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+              </div>
+              <h4>Personal Care Products</h4>
+              <p>
+                Daily healthcare, hygiene, baby care, and skin care products.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="medicine-card text-center">
+              <div class="icon">
+                <i class="fa-solid fa-stethoscope"></i>
+              </div>
+              <h4>Medical Devices</h4>
+              <p>
+                BP monitors, glucometers, thermometers, and home care equipment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5">
+      <div class="container-lg">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Contact</h2>
+          <div class="contact-line mx-auto"></div>
+          <p class="text-muted mt-3">
+            Reach out to us for medical support, prescriptions, and inquiries
+          </p>
+        </div>
+
+        <!-- map -->
+        <div class="contact-map mb-5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122283.79400671698!2d74.15646588457898!3d16.708452233396038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1000cdec07a29%3A0xece8ea642952e42f!2sKolhapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1767688598477!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6 d-flex">
+            <div class="row g-4 flex-fill align-content-start">
+              <div class="col-12">
+                <div class="contact-card text-center h-100">
+                  <div class="contact-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <h5>Address</h5>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="contact-card text-center h-100">
+                  <div class="contact-icon">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <h5>Call Us</h5>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="contact-card text-center h-100">
+                  <div class="contact-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <h5>Email Us</h5>
+                  <p>info@example.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- form -->
+          <div class="col-lg-6" id="order-form">
+            <form class="contact-form">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Name"
+                    id="frm-name"
+                    required
+                  />
+                </div>
+
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Your Email"
+                    id="frm-email"
+                    required
+                  />
+                </div>
+
+                <div class="col-12">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Subject"
+                    id="frm-subject"
+                    required
+                  />
+                </div>
+
+                <div class="col-12">
+                  <textarea
+                    class="form-control"
+                    rows="6"
+                    placeholder="Message"
+                    id="frm-msg"
+                    required
+                  ></textarea>
+                </div>
+
+                <div class="col-12 text-center">
+                  <button type="submit" id="frm-submit" class="btn btn-contact">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+      <div class="footer-top py-5">
+        <div class="container-lg">
+          <div class="row gy-4">
+            <!-- about -->
+            <div class="col-lg-4 col-md-6">
+              <h4 class="footer-title">Medical Store</h4>
+              <p class="footer-about">
+                Your trusted medical shop providing genuine medicines,
+                healthcare products, and professional guidance.
+              </p>
+              <p class="footer-contact">
+                <strong>Phone:</strong> +1 5589 55488 55<br />
+                <strong>Email:</strong> info@example.com
+              </p>
+            </div>
+
+            <!-- quick-links -->
+            <div class="col-lg-2 col-md-6">
+              <h5 class="footer-title">Quick Links</h5>
+              <ul class="footer-links">
+                <li>
+                  <i class="fa-solid fa-chevron-right"></i>
+                  <a href="#hero">Home</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right"></i>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right"></i>
+                  <a href="#services">Services</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right"></i>
+                  <a href="#medicines">Medicines </a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right"></i>
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- services -->
+            <div class="col-lg-3 col-md-6">
+              <h5 class="footer-title">Our Services</h5>
+              <ul class="footer-links">
+                <li>
+                  <i class="fa-solid fa-chevron-right"></i> Medication
+                  Counseling
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right"></i> Chronic Disease
+                  Support
+                </li>
+                <li><i class="fa-solid fa-chevron-right"></i> Home Delivery</li>
+                <li>
+                  <i class="fa-solid fa-chevron-right"></i> Wellness Products
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right"></i> Personal Care Items
+                </li>
+              </ul>
+            </div>
+
+            <!-- socian-media -->
+            <div class="col-lg-3 col-md-6">
+              <h5 class="footer-title">Follow Us</h5>
+              <p>Stay connected for updates and health tips.</p>
+
+              <div class="footer-social">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- copyright -->
+      <div class="footer-bottom text-center py-3">
+        <div class="container">
+          <small>
+            © 2026 <strong>Medical Store</strong>. All Rights Reserved.
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
