@@ -11,31 +11,13 @@ body {
   background-color: #3fbbc0;
   color: white;
   padding: 8px 0;
-}
-
-.navbar-brand {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  letter-spacing: 1px;
-  font-size: 1.5rem;
-  color: #333;
-  text-transform: uppercase;
-}
-
-.navbar-brand img {
-  height: 55px;
-  width: auto;
-}
-
-@media (max-width: 768px) {
-  .navbar-brand img {
-    height: 42px;
-  }
-}
-
-#navbar-top {
   height: 40px;
   z-index: 1031;
+}
+
+#navbar-top p {
+  margin: 0;
+  font-size: 14px;
 }
 
 #navbar-main {
@@ -44,21 +26,51 @@ body {
   background-color: white;
 }
 
+.brand-logo {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  overflow: hidden; /* This hides everything outside the circle */
+  display: inline-block;
+  background-color: #fff;
+  position: relative;
+}
+
+.brand-logo img {
+  /* Zoom in even more to fill the circle with just the shield */
+  width: 500%; 
+  height: auto;
+  
+  /* Move the image UP and LEFT to center the shield */
+  position: absolute;
+  top: -33px;   /* Increased from -12px to pull the shield UP into the circle */
+  left: -28px;  /* Increased from -22px to move it into the center */
+}
+
+@media (max-width: 768px) {
+  .logo-container {
+    height: 42px;
+    width: 42px;
+  }
+  .brand-logo img {
+    width: 500%;
+    top: -33px;
+    left: -28px;
+  }
+}
+
+.brand-name {
+  font-family: "Nirmala UI";
+  font-weight: 700;
+  font-size: 22px;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+
+
 #navbar-main .nav-link.active {
   color: #3fbbc0 !important;
-}
-
-#navbar-top p {
-  margin: 0;
-  font-size: 14px;
-}
-
-.navbar-brand {
-  font-size: 25px;
-}
-
-.navbar-brand img {
-  height: 50px;
 }
 
 .navbar-nav .nav-item {
@@ -76,6 +88,7 @@ body {
   color: white;
   margin-left: 16px;
 }
+
 
 .hero {
   height: 500px;
